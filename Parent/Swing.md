@@ -8,6 +8,8 @@
 - <b>[Add actionPerformed() method](#add-actionperformed--method)</b>
 - <b>[Socket Code in main class](#socket-code-in-main-class)</b>
 
+<hr />
+
 #### Importing Libraries
 
 ```
