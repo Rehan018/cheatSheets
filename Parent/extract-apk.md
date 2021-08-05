@@ -1,4 +1,4 @@
-# extract-apk
+## Extract APK
 
 <p><b>Step.1 : </b> Rename .apk file to .zip file. Extract it and you get the classes.dex file</p>
 <p><b>Step.2 : </b> <a href="https://sourceforge.net/projects/dex2jar/">Download dex2jar</a> and set System Variables</p>
