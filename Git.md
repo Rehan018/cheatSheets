@@ -1,9 +1,11 @@
 # Table of Contents :
 - <b>[Setup](#setup)</b>
 - <b>[Create](#create)</b>
-- <b>[Create](#create)</b>
-- <b>[Create](#create)</b>
-- <b>[Create](#create)</b>
+- <b>[Local Changes](#local-changes)</b>
+- <b>[Move or Rename](#move--rename)</b>
+- <b>[Branches](#branches)</b>
+- <b>[Update & Publish](#update--publish)</b>
+- <b>[Merge](#merge)</b>
 
 ## Setup
 
