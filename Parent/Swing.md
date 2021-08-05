@@ -1,5 +1,14 @@
-# Swing
-<p><b>Importing Libraries : </b></p>
+## Table of Contents : 
+- <b>[Importing Libraries](#importing-libraries)</b>
+- <b>[Extend Class and Implement Interface >> Create Objects](#extend-class-and-implement-interfaces--create-objects)</b>
+- <b>[Creating Constructor for default calling of GUI](#creating-constructor-for-default-calling-of-gui)</b>
+- <b>[Creating JPanel](#creating-jpanel)</b>
+- <b>[Adding Image icons in JPanel](#adding-image-icons-in-jpanel)</b>
+- <b>[Add mouseListener to Exit icon](#add-moselistener-to-exit-icon)</b>
+- <b>[Add actionPerformed() method](#add-actionperformed--method)</b>
+- <b>[Socket Code in main class](#socket-code-in-main-class)</b>
+
+#### Importing Libraries
 
 ```
 
@@ -10,7 +19,7 @@ import java.net.*;        // for socket
 import java.io.*;         // for DataInputOutput
 ```
 
-<p><b>Extend Class and Implement Interface >> Create Objects</b></p>
+#### Extend Class and Implement Interface >> Create Objects
 
 ```
 public class className extends JFrame implements ActionListener {
@@ -22,7 +31,7 @@ public class className extends JFrame implements ActionListener {
   static DataOutputStream dout;
 ```
   
-<p><b>Creating Constructor for default calling of GUI</b></p>
+#### Creating Constructor for default calling of GUI
 
 ```
 className(){
@@ -37,7 +46,7 @@ className(){
     
 ```
 
-<p><b>Creating JPanel</b></p>
+#### Creating JPanel
 <p>We can put multiple items in JPanel</p>
 
 ```
@@ -48,7 +57,7 @@ p1.setBounds(0, 0, 400, 40);
 add(p1);
 ```
 
-<p><b>Adding Image icons in JPanel</b></p>
+#### Adding Image icons in JPanel
 
 ```
 //Back Arrow .png
@@ -60,7 +69,7 @@ l1.setBounds(8, 8, 25, 25);
 p1.add(l1);	
 ```
 
-<p><b>Add mouseListener to Exit icon</b></p>
+#### Add mouseListener to Exit icon
 
 ```
 l1.addMouseListener(new MouseAdapter() {
@@ -70,13 +79,13 @@ l1.addMouseListener(new MouseAdapter() {
 });
 ```
 
-<p><b>Add actionPerformed() method</b></p>
+#### Add actionPerformed() method
 
 ```
 public void actionPerformed(ActionEvent ae) {}
 ```
 
-<p><b>Socket Code in main class</b></p>
+#### Socket Code in main class
 <b>Server</b>
 
 ```
