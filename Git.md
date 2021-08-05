@@ -7,7 +7,8 @@
 - <b>[Update & Publish](#update--publish)</b>
 - <b>[Merge](#merge)</b>
 
-<hr>
+<hr />
+
 ## Setup
 
 <p><b>Show Current Configuration<b></p>
