@@ -1,6 +1,6 @@
 ## Table of Contents : 
 - <b>[Importing Libraries](#importing-libraries)</b>
-- <b>[Extend Class and Implement Interface & Create Objects](#extend-class-and-implement-interfaces--create-objects)</b>
+- <b>[Extend Class and Implement Interface & Create Objects](#extend-class-and-implement-interface--create-objects)</b>
 - <b>[Creating Constructor for default calling of GUI](#creating-constructor-for-default-calling-of-gui)</b>
 - <b>[Creating JPanel](#creating-jpanel)</b>
 - <b>[Adding Image icons in JPanel](#adding-image-icons-in-jpanel)</b>
