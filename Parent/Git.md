@@ -1,4 +1,4 @@
-# Table of Contents :
+## Table of Contents :
 - <b>[Setup](#setup)</b>
 - <b>[Create](#create)</b>
 - <b>[Local Changes](#local-changes)</b>
@@ -9,7 +9,8 @@
 
 <hr />
 
-## Setup
+
+### Setup
 
 <p><b>Show Current Configuration<b></p>
 
@@ -35,7 +36,8 @@ git config --global user.name "[user_name]"
 git config --global user.email "[user_email]"
 ```
 
-## Create
+  
+### Create
 <p><b>Clone from Sever<b></p>
 
 ```
@@ -54,7 +56,8 @@ git init
 git init <directory>
 ```
 
-## Local Changes
+  
+### Local Changes
 <p><b>See Changes in working repo.<b></p>
 
 ```
@@ -96,15 +99,16 @@ git commit -m "[messages here]"
 ```
 git commit -am "[messages here]"
 ```
+  
 
-## Move || Rename
+### Move || Rename
 <p><b>Move or Rename file<b></p>
 
 ```
 git mv <oldFile.ext> <newFile.etc>
 ```
 
-## Branches
+### Branches
 <p><b>List All Branch<b></p>
 
 ```
@@ -129,7 +133,8 @@ git -m <newName>
 git -d <branch>
 ```
 
-## Update & Publish
+
+### Update & Publish
 <p><b>List all Remotes<b></p>
 
 ```
@@ -165,8 +170,9 @@ git push -u <remote> master
 ```
 git pull <remote> master
 ```
+  
 
-## Merge
+### Merge
 <p><b>Merge into Current Branch<b></p>
 
 ```
