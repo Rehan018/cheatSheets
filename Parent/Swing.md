@@ -4,8 +4,8 @@
 - <b>[Creating Constructor for default calling of GUI](#creating-constructor-for-default-calling-of-gui)</b>
 - <b>[Creating JPanel](#creating-jpanel)</b>
 - <b>[Adding Image icons in JPanel](#adding-image-icons-in-jpanel)</b>
-- <b>[Add mouseListener to Exit icon](#add-moselistener-to-exit-icon)</b>
-- <b>[Add actionPerformed() method](#add-actionperformed--method)</b>
+- <b>[Add mouseListener to Exit icon](#add-mouselistener-to-exit-icon)</b>
+- <b>[Add actionPerformed() method](#add-actionperformed()-method)</b>
 - <b>[Socket Code in main class](#socket-code-in-main-class)</b>
 
 <hr />
