@@ -52,12 +52,6 @@ java <file-name> arg1, arg2, ...
 | <b>char - </b>16 bits       | <b>boolean - </b>1 bits |
 | --------------------------- | ----------------------- |
 
-#### Constants
-
-```
-final float PI = 3.104;
-```
-
 ### Escape Sequences
 
 ```
@@ -145,3 +139,47 @@ Output is :<br />
 `From Instance Initializer`<br />
 `From Git : 50`
 
+### Final Keyword
+
+#### Constants
+- final variable can't be change
+
+```
+final float PI = 3.104;
+```
+
+#### Method
+- final method can't be override
+```
+class A{
+  final void run(){ S.O.P.("running"); }
+}
+
+class B extends A{
+  void run(){ S.O.P.("Waiting"); }
+  
+  P.S.V.M.(String[] args){
+    new B.run();
+  }
+}
+```
+
+Output is : <br />
+`Compile Time Error`
+
+#### Class
+- final class can't be extendable
+
+```
+final class A{ }
+
+class B extends A{
+  ...
+}
+```
+
+Output is : <br />
+`Compile Time Error`
+
+- We can Inherit final method.
+- We can ini
