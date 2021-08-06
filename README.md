@@ -5,3 +5,4 @@
 - <b>[Swing](Parent/Swing.md)</b>
 - <b>[Extraxt APK](Parent/extract-apk.md)</b>
 - <b>[JAR](Parent/jar.md)</b>
+- <b>[Java](Parent/java.md)</b>
