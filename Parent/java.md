@@ -330,5 +330,47 @@ file.delete()
 // return name of the file
 file.getName()
 
+// return absolute path of the file
+file.getAbsolutePath()
 
+// return size of the file in bytes
+file.length()
+
+// returns an array of the files in the directory
+file.list()
+
+// create a new directory
+file.mkdir()
+
+// close the file
+file.close()
+
+// write something in the file
+FileWriter w = new FileWriter("file.ext");
+
+w.write(String s);
+
+w.close();
+```
+
+### Exception Handling
+#### try-catch block
+
+```
+try{
+  // statements
+}
+catch(Exception e){
+  // statements
+}
+```
+
+#### finally block
+
+```
+try{  }
+catch(Exception e){ }
+finally{
+  // statements
+}
 ```
