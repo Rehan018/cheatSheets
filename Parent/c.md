@@ -10,6 +10,8 @@
 - <b>[File Handling](#file-handling)</b>
 - <b>[Dynamic Memory Allocation](#dynamic-memory-allocation)</b>
 
+<hr />
+
 ### Boilerplate Code
 
 ```
