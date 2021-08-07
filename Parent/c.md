@@ -1,4 +1,14 @@
 ## Table of Contents : 
+- <b>[Boilerplate Code](#boilerplate-code)</b>
+- <b>[Print & Scan](#print--scan)</b>
+- <b>[Data Types](#data-types)</b>
+- <b>[Escape Sequences](#escape-sequences)</b>
+- <b>[Pointers](#pointers)</b>
+- <b>[Array](#array)</b>
+- <b>[String](#string)</b>
+- <b>[Structure](#structure)</b>
+- <b>[File Handling](#file-handling)</b>
+- <b>[Dynamic Memory Allocation](#dynamic-memory-allocation)</b>
 
 ### Boilerplate Code
 
