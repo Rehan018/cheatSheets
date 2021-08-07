@@ -92,6 +92,62 @@ double xx = 4.51;
 int x = (int)x;
 ```
 
+### Conversion
+#### String to Int
+
+```
+// Using parseInt()
+// without radix
+int Integer.parseInt(String s)
+double Double.parseDouble(String s)
+
+// with radix
+int Integer.parseInt("20", 16)  // (2)*16^1 + (0)*16^0 = 32
+
+
+// Using valueOf()
+// without radix
+int Integer.valueOf(String s)
+
+// with radix
+int Integer.valueOf("20", 16)
+```
+
+#### Int to String
+
+```
+// Using toString()
+// for primitive type
+String Integer.toString(int i)
+
+// for object type
+String s = new Integer(int i).toString()
+
+// Using valueOf()
+String String.valueOf(int i)
+
+// Using DecimalFormat()
+int rs = 12345;
+DecimalFormat d = new DecimalFormat("#,###"); // 12,345
+String str = d.format(e);
+
+// Using concatenation with empty string
+int i = 12345;
+String str = "" + i;
+```
+
+#### Char to Int
+
+```
+// Using ASCII value
+char ch = '5';
+int i = ch - '0';
+
+// Using valueOf()
+char ch = '5';
+int i = Integer.parseInt(String.valueOf(ch));
+```
+
 ### Ternary Operator
 
 ```
@@ -257,19 +313,6 @@ S.O.P.(str1.concat(str2));
 
 Output is : 
 `HelloBhai`
-
-### Parsing
-
-```
-// Convert to an int
-int Integer.parseInt(String s)
-
-// Convert to a double
-double Double.parseDouble(String s)
-
-// Convert to a Long
-long Long.parseLong(String s)
-```
 
 ### Math Library
 
