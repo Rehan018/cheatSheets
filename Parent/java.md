@@ -309,3 +309,26 @@ double E
 double PI
 ```
 
+### File Operations
+
+```
+// check whether the file is readable or not
+file.canRead()
+
+// Create an empty file
+file.createNewFile()
+
+// check writable or not
+file.canWrite()
+
+// check file exists or not
+file.exists()
+
+// Delete a file
+file.delete()
+
+// return name of the file
+file.getName()
+
+
+```
