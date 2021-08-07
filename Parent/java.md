@@ -182,4 +182,74 @@ Output is : <br />
 `Compile Time Error`
 
 - We can Inherit final method.
-- We can ini
+- We can initialize blank final variable in constructor only.
+- A blank static final variable can only initialized in static block.
+
+### Static Keyword
+- Java main() is static because a no-static method can call by an object that cost an extra memory.
+- Static variable can used from static methods only.
+#### Static Block 
+- Used to initialized static data member.
+- Executed before the main().
+
+```
+class A{
+  static( S.O.P.("Before Main"); }
+  
+  P.S.V.M(String[] args){
+    S.O.P.("In Main");
+  }
+}
+```
+
+Output is : <br />
+`Before Main` <br />
+`In Main`
+
+### Strings
+#### String Length
+
+```
+String str = "There is many Line";
+
+int L = str.length();
+```
+
+#### toUpperCase() & toLowerCase()
+
+```
+S.O.P.(str.toUpperCase());
+
+S.O.P.(str.toLowerCase());
+```
+
+#### indexOf()
+
+```
+S.O.P.(str.indexOf("e"));
+```
+
+#### concat()
+
+```
+str1 = "Hello";
+str2 = "Bhai";
+
+S.O.P.(str1.concat(str2));
+```
+
+Output is : 
+`HelloBhai`
+
+### Parsing
+
+```
+// Convert to an int
+int Integer.parseInt(String s)
+
+// Convert to a double
+double Double.parseDouble(String s)
+
+// Convert to a Long
+long Long.parseLong(String s)
+```
