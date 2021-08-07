@@ -186,7 +186,7 @@ Output is : <br />
 - A blank static final variable can only initialized in static block.
 
 ### Static Keyword
-- Java main() is static because a no-static method can call by an object that cost an extra memory.
+- Java main() is static because a non-static method can call by an object that cost an extra memory.
 - Static variable can used from static methods only.
 #### Static Block 
 - Used to initialized static data member.
@@ -253,3 +253,59 @@ double Double.parseDouble(String s)
 // Convert to a Long
 long Long.parseLong(String s)
 ```
+
+### Math Library
+
+```
+// Import
+java.lang.Math.*;
+
+// Absolute value of a
+double abs(double a)
+
+// Max of a & b
+double max(double a, double b)
+
+// Min of a & b
+double min(double a, double b)
+
+// Sine of theta
+double sin(double theta)
+
+// Cosine of theta
+double cos(double theta)
+
+// Tangent of theta
+double tan(double theta)
+
+// Convert angle fron degrees to radians
+double toRadians(double degrees)
+
+// Convert angle fron radians to degrees
+double toDegrees(double radians)
+
+// exponential of a ( e^a )
+double exp(double a)
+
+// Natural Log of a (lna)
+double log(double a)
+
+// raise power a to the b
+double pow(double a, double b)
+
+// Round a to the nearest Integer
+long round(double a)
+
+// Random number in [0, 1)
+double random()
+
+// Square root of a
+double sqrt(double a)
+
+// Value of e (constant)
+double E
+
+// Value of PI (constant)
+double PI
+```
+
