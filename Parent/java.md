@@ -3,6 +3,7 @@
 - <b>[Primitive Data Types](#primitive-data-types)</b>
 - <b>[Escape Sequences](#escape-sequences)</b>
 - <b>[Type Casting](#type-casting)</b>
+- <b>[Conversion](#conversion)</b>
 - <b>[Ternary Operator](#ternary-operator)</b>
 - <b>[Naming Convention](#naming-convention)</b>
 - <b>[Super keyword](#super-keyword)</b>
@@ -10,7 +11,6 @@
 - <b>[Final Keyword](#final-keyword)</b>
 - <b>[Static Keyword](#static-keyword)</b>
 - <b>[Strings](#strings)</b>
-- <b>[Parsing](#parsing)</b>
 - <b>[Math Library](#math-library)</b>
 - <b>[File Operations](#file-operations)</b>
 - <b>[Exception Handling](#exception-handling)</b>
@@ -146,6 +146,10 @@ int i = ch - '0';
 // Using valueOf()
 char ch = '5';
 int i = Integer.parseInt(String.valueOf(ch));
+
+// Using Character.getNumericValue()
+char ch = '5';
+int i = Character.getNumericValue(ch);
 ```
 
 ### Ternary Operator
