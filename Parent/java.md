@@ -1,4 +1,21 @@
 ## Table of Contents :
+- <b>[Taking Inputs](#taking-inputs)</b>
+- <b>[Primitive Data Types](#primitive-data-types)</b>
+- <b>[Escape Sequences](#escape-sequences)</b>
+- <b>[Type Casting](#type-casting)</b>
+- <b>[Ternary Operator](#ternary-operator)</b>
+- <b>[Naming Convention](#naming-convention)</b>
+- <b>[Super keyword](#super-keyword)</b>
+- <b>[Instance Initializer Block](#instance-initializer-block)</b>
+- <b>[Final Keyword](#final-keyword)</b>
+- <b>[Static Keyword](#static-keyword)</b>
+- <b>[Strings](#strings)</b>
+- <b>[Parsing](#parsing)</b>
+- <b>[Math Library](#math-library)</b>
+- <b>[File Operations](#file-operations)</b>
+- <b>[Exception Handling](#exception-handling)</b>
+
+<hr />
 
 ### Taking Inputs
 #### Using Scanner
