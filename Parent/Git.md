@@ -170,6 +170,12 @@ git push -u <remote> master
 ```
 git pull <remote> master
 ```
+
+<p><b>Fetch from Server</b></p>
+
+```
+git fetch <remoteName>
+```
   
 
 ### Merge
