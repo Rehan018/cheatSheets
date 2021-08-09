@@ -115,6 +115,12 @@ git mv <oldFile.ext> <newFile.etc>
 git branch
 ```
 
+<p><b>Create new Branch<b></p>
+
+```
+git branch <new_branch>
+```
+
 <p><b>Switch Branch<b></p>
 
 ```
