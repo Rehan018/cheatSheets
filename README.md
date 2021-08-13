@@ -7,4 +7,3 @@
 - <b>[JAR](Parent/jar.md)</b>
 - <b>[Java](Parent/java.md)</b>
 - <b>[C Language](Parent/c.md)</b>
-- <b>[Mylanguage](Parent/)</b>
