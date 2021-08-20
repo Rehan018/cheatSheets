@@ -5,6 +5,12 @@
 python -m http.server port
 ```
 
+### ngrok
+
+```
+ngrok http -auth="name:pass" file:///C:\Users\Seraj\Desktop
+```
+
 ### copy output to clipboard
 
 ```
