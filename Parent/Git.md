@@ -130,7 +130,7 @@ git checkout <branch>
 <p><b>Change Branch Name<b></p>
 
 ```
-git -m <newName>
+git branch -M <newName>
 ```
 
 <p><b>Delete a Branch<b></p>
