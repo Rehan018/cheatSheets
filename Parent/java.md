@@ -1,5 +1,6 @@
 ## Table of Contents :
 - <b>[Taking Inputs](#taking-inputs)</b>
+- <b>[Access Modifiers](#access-modifiers)</b>
 - <b>[Primitive Data Types](#primitive-data-types)</b>
 - <b>[Escape Sequences](#escape-sequences)</b>
 - <b>[Type Casting](#type-casting)</b>
@@ -54,6 +55,19 @@ javac <file-name>
 
 java <file-name> arg1, arg2, ...
 ```
+
+### Access Modifiers
+#### Default
+<p>Accessible Only within the same Package</p>
+
+#### Private
+<p>Accessible Only within the Class</p>
+
+#### Protected
+<p>Accessible within Same Package or SubClass of different Packages</p>
+
+#### Public
+<p>Accessible from everywhere in the Program</p>
 
 ### Primitive Data Types
 
