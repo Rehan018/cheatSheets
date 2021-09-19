@@ -23,4 +23,16 @@ dir | clip
 dir > path/name.txt
 ```
 
+### FTP Login
+
+```
+ftp
+open
+hostname/ip
+username
+password
+
+ftp>
+```
+
 ### 
