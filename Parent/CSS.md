@@ -7,6 +7,7 @@
 - <b>[Font Formatting](#font-formatting)</b>
 - <b>[Text Shadow & Box Shadow](#text-shadow--box-shadow)</b>
 - <b>[Flexbox](#flexbox)</b>
+- <b>[Grid](#grid)</b>
 - <b>[Unselectable Text](#unselectable-text)</b>
 - <b>[Hover to change Other Class Property](#hover-to-change-other-class-property)</b>
 - <b>[Input Focus & Valid](#input-focus--valid)</b>
@@ -127,14 +128,34 @@
   order: 3; 2;    // changing order
   flex-grow: 2; 3;    // changing width
   ```
+
+### Grid
+
+```
+display: grid;
+grid-template-columns: 50% 20% 30%;
+```
+
+<!-- Remains -->
+<!-- filter: blur(1em); -->
+<!-- display: inline-block; -->
+<!-- transform: perspective(1em) rotateX(40deg) scale(1, 0.35) -->
+<!-- pointer-events: none; -->
+<!-- transition: opacity 100ms linear; -->
+<!-- 
+.class:hover::after{
+  ...
+}
+
+ -->
   
 ### Unselectable Text
   
   ```
   -webkit-user-select: none;   /* Safari */        
-  --moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;         /* IE10+/Edge */
-  -user-select: none;                /* Standard */
+  --moz-user-select: none;     /* Firefox */ 
+  -ms-user-select: none;       /* IE10+/Edge */
+  -user-select: none;          /* Standard */
   ```
   
 ### Hover to change Other CLass Property
